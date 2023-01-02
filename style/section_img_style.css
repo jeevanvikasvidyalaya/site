@@ -1,0 +1,176 @@
+.head_physics_sci{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 1vh;
+    /* text-decoration: dotted; */
+}
+.p_img_r_physics {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -35vh;
+    margin-left: 7vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+.head_chem_sci{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 4vh;
+    /* text-decoration: dotted; */
+}
+
+.p_img_chem {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -35vh;
+    margin-left: 47vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+.head_bio_sci{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 5vh;
+    /* text-decoration: dotted; */
+}
+.p_img_r_bio_not {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -45vh;
+    margin-left: 7vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+.head_library{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 8vh;
+    /* text-decoration: dotted; */
+}
+
+.p_img_library {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -40vh;
+    margin-left: 47vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+.p_img_r_arts {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -50vh;
+    margin-left: 7vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+.p_img_r_mcvc {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -55vh;
+    margin-left: 7vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+.p_img_r_auto {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -60vh;
+    margin-left: 7vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+.p_img_r_primary {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -48vh;
+    margin-left: 7vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+
+.head_judo{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 13vh;
+    /* text-decoration: dotted; */
+}
+.p_img_r_bio {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -40vh;
+    margin-left: 7vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+.p_img_r_chess {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -50vh;
+    margin-left: 7vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+.p_img_kabaddi_not {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -45vh;
+    margin-left: 47vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+.p_img_r_judo {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -50vh;
+    margin-left: 7vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
+.p_img_mallakhamb {
+    height: auto;
+    width: 43vw;
+    border: 1px solid;
+    display: flex;
+    margin-top: -45vh;
+    margin-left: 47vw;
+    border-radius: 10px;
+    padding: 2vh;
+}
+
