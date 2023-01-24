@@ -1,0 +1,926 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #2d293bb0;
+    color: rgba(37, 37, 37, 0.982);
+}
+
+/* horizontal line css*/
+.horizontal_line {
+    border-bottom: 1px solid;
+}
+
+.horizontal_line_2 {
+    border-bottom: 1px solid;
+    visibility: hidden;
+}
+
+.horizontal_line_3 {
+    border-bottom: 1px solid;
+    margin-top: -50rem;
+}
+
+.horizontal_line_4 {
+    border-bottom: 1px solid;
+    margin-top: 3rem;
+}
+
+.horizontal_line_5 {
+    border-bottom: 1px solid;
+    /* margin-top: 3rem; */
+}
+.horizontal_line_6 {
+    border-bottom: 1px solid;
+    margin-top: 3rem;
+}
+
+/* navbar css */
+header {
+    text-align: center;
+}
+
+.nav_li {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-family: 'Roboto Slab', serif;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* logo */
+.logo_threelines {
+    height: auto;
+    width: 28px;
+    border: 0px solid;
+    border-radius: 0px;
+    margin-top: -2.9rem;
+    margin-left: 87vw;
+    display: flex;
+    margin-bottom: 0.5rem;
+    visibility: hidden;
+  }
+
+.logo {
+    height: auto;
+    width: 60px;
+    border: 1px solid;
+    border-radius: 17px;
+    margin-top: -4.1rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+.logo_2 {
+    height: auto;
+    width: 100px;
+    border: 0px solid;
+    border-radius: 17px;
+    margin-top: -4.1rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+.logo_d2 {
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid; */
+    /* border-radius: 17px; */
+    margin-top: -3.1rem;
+    margin-left: 87rem;
+    display: flex;
+    visibility: hidden;
+}
+
+.logo_i_d_jvv {
+    margin-left: 29rem;
+    margin-top: -7rem;
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.name_jvv {
+    font-size: 72px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 8rem;
+    margin-left: 6rem;
+    margin-right: 50rem;
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+}
+
+.add_jvv {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 0.3rem;
+    margin-left: 6rem;
+    margin-right: 50rem;
+}
+
+.img_jvv_d {
+    display: flex;
+    justify-content: right;
+    margin-top: -20rem;
+}
+
+.img_jvv {
+    height: auto;
+    width: 43rem;
+    margin-right: 3rem;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* tabmode */
+.name_jvv_tabmode {
+    font-size: 90px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 8rem;
+    margin-left: 6rem;
+    margin-right: 50rem;
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+    visibility: hidden;
+}
+
+.add_jvv_tabmode {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 0.3rem;
+    margin-left: 6rem;
+    margin-right: 50rem;
+    visibility: hidden;
+}
+
+.img_jvv_d_tabmode {
+    display: flex;
+    justify-content: right;
+    margin-top: -20rem;
+    visibility: hidden;
+}
+
+.img_jvv_tabmode {
+    height: auto;
+    width: 45rem;
+    margin-right: 3rem;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    visibility: hidden;
+}
+
+.logo_i_d_jvv_tabmode {
+    margin-left: 29rem;
+    margin-top: -7rem;
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.logo_2_tabmode {
+    height: auto;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 17px;
+    margin-top: -4.1rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+/* vanita vidyalaya */
+
+.name_d_vv {
+    margin-top: -38rem;
+}
+
+.logo_2_vv {
+    height: auto;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 17px;
+    margin-top: -4.1rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+.logo_d2_vv {
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    border-radius: 17px;
+    margin-top: -3.1rem;
+    margin-left: 87rem;
+    display: flex;
+    visibility: hidden;
+}
+
+.logo_i_d_vv {
+    margin-left: 29rem;
+    margin-top: -7rem;
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.name_vv {
+    font-size: 72px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 8rem;
+    margin-left: 50rem;
+    margin-right: 6rem;
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+}
+
+.add_vv {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 0.3rem;
+    margin-left: 50rem;
+    margin-right: 6rem;
+}
+
+.img_vv_d {
+    display: flex;
+    justify-content: left;
+    margin-top: -24rem;
+    margin-bottom: 10rem;
+}
+
+.img_vv {
+    height: auto;
+    width: 41rem;
+    /* margin-right: 3rem; */
+    margin-left: 3rem;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* tabmode */
+.name_vv_tabmode {
+    font-size: 90px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 8rem;
+    margin-left: 6rem;
+    margin-right: 50rem;
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+    visibility: hidden;
+}
+
+.add_vv_tabmode {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 0.3rem;
+    margin-left: 6rem;
+    margin-right: 50rem;
+    visibility: hidden;
+}
+
+.img_vv_d_tabmode {
+    display: flex;
+    justify-content: right;
+    margin-top: -20rem;
+    visibility: hidden;
+}
+
+.img_vv_tabmode {
+    height: auto;
+    width: 45rem;
+    margin-right: 3rem;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    visibility: hidden;
+}
+
+.logo_i_d_vv_tabmode {
+    margin-left: 29rem;
+    margin-top: -7rem;
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.logo_2_tabmode_vv {
+    height: auto;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 17px;
+    margin-top: -4.1rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+/* about us speech */
+.about_head {
+    font-size: 50px;
+    font: 600;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.about_speech {
+    font: 200;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.about_speech_p {
+    padding: 10px;
+}
+
+/* about section end */
+/* image */
+.image_students_d {
+    background-color: rgba(255, 255, 255, 0.17);
+    margin-top: 5rem;
+}
+
+.image_students {
+
+    width: 100vw;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* imgaes students end */
+/* persons */
+/* left */
+.info_about_persons {
+    padding-top: 4rem;
+}
+
+.person_left_head {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 2rem;
+
+}
+
+.person_left_img_d {
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
+}
+
+.person_left_img {
+    width: 45rem;
+    height: auto;
+    display: flex;
+    border: 2px solid;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+.person_left_info {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 5rem;
+    margin-right: 56rem;
+    margin-top: -25rem;
+    text-align: right;
+    margin-bottom: 6rem;
+}
+
+/* left end */
+/* right */
+.person_right_head {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 2rem;
+
+}
+
+.person_right_head_vv_p {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 2rem;
+
+}
+
+.person_right_img_d {
+    display: flex;
+    justify-content: start;
+    margin-left: 5rem;
+}
+
+.person_right_img {
+    width: 45rem;
+    height: auto;
+    display: flex;
+    border: 2px solid;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+.person_right_info {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 56rem;
+    margin-right: 5rem;
+    margin-top: -25rem;
+    text-align: left;
+    margin-bottom: 15rem;
+}
+
+/* right end */
+/* principle thought change */
+.person_left_info_p_change {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 5rem;
+    margin-right: 56rem;
+    margin-top: -30rem;
+    text-align: right;
+    margin-bottom: 10rem;
+}
+
+.person_right_info_p_change {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 56rem;
+    margin-right: 5rem;
+    margin-top: -32rem;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.person_right_img_vv_p {
+    width: 45rem;
+    height: auto;
+    display: flex;
+    border: 2px solid;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+.person_left_head_jvv_p {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 2rem;
+
+}
+
+/* persons end */
+/* team */
+.team_head {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 0.5rem;
+    font-size: 40px;
+}
+
+.team_image_d {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.team_image {
+    height: auto;
+    width: 90vw;
+    font-family: 'Roboto', sans-serif, 'Roboto Slab', serif;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.main_quote {
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3rem;
+}
+
+.writer {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* team end */
+
+/* facilities */
+
+.top_head_f {
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.head_content {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.right_image_d {
+    display: flex;
+    justify-content: right;
+}
+
+.right_image_f {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 45vw;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.content_f_info_right {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 57vw;
+    margin-left: 7rem;
+    margin-top: -26rem;
+    margin-bottom: 14rem;
+}
+
+/* left */
+.left_image_d {
+    display: flex;
+    justify-content: left;
+}
+
+.left_image_f {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 45vw;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.content_f_info_left {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 7vw;
+    margin-left: 53rem;
+    margin-top: -20rem;
+    margin-bottom: 8rem;
+}
+
+.content_f_info_left_lib {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 7vw;
+    margin-left: 53rem;
+    margin-top: -25rem;
+    margin-bottom: 14rem;
+}
+
+
+/* bio */
+.head_content_bio {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.right_image_d_bio {
+    display: flex;
+    justify-content: right;
+}
+
+.right_image_f_bio {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 45vw;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.content_f_info_right_bio {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 57vw;
+    margin-left: 7rem;
+    margin-top: -20rem;
+    margin-bottom: 10rem;
+}
+
+/* faciliities */
+
+
+/* arts */
+
+.top_head_f {
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.head_content_arts {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.right_image_d {
+    display: flex;
+    justify-content: right;
+}
+
+.right_image_f {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 45vw;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.content_f_info_right_arts {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 57vw;
+    margin-left: 7rem;
+    margin-top: -26rem;
+    margin-bottom: 8rem;
+}
+
+/* left */
+.left_image_d {
+    display: flex;
+    justify-content: left;
+}
+
+.left_image_f {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 45vw;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.content_f_info_left {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 7vw;
+    margin-left: 53rem;
+    margin-top: -20rem;
+    margin-bottom: 8rem;
+}
+
+/* mcvc */
+.head_content_mcvc {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.content_f_info_right_mcvc {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 57vw;
+    margin-left: 7rem;
+    margin-top: -26rem;
+    margin-bottom: 8rem;
+}
+
+/* automobile */
+.head_content_automobile {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.content_f_info_right_automobile {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 57vw;
+    margin-left: 7rem;
+    margin-top: -26rem;
+    margin-bottom: 4rem;
+}
+
+/* primary education */
+.head_content_pe {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+/* sports */
+
+/* chess */
+.head_content_s_chess {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.right_image_d_s_chess {
+    display: flex;
+    justify-content: right;
+}
+
+.right_image_s_chess {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 45vw;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.content_f_info_right_s_chess {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 57vw;
+    margin-left: 7rem;
+    margin-top: -26rem;
+    margin-bottom: 11rem;
+}
+
+/* kabbdi */
+.head_content_s_k {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    text-align: center;
+  }
+  .left_image_d_s_k {
+    display: flex;
+    justify-content: left;
+  }
+  .left_image_s_k  {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 45vw;
+    margin-left: 6rem;
+    margin-top: 2rem;
+  }
+  .content_f_info_left_s_k  {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 7vw;
+    margin-left: 53rem;
+    margin-top: -20rem;
+    margin-bottom: 4rem;
+  }
+  /* judo */
+  .head_content_s_j {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    text-align: center;
+  }
+  .right_image_d_s_j {
+    display: flex;
+    justify-content: right;
+  }
+  .right_image_s_j {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 45vw;
+    margin-right: 4rem;
+    margin-top: 2rem;
+  }
+  .content_f_info_right_s_j {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 57vw;
+    margin-left: 7rem;
+    margin-top: -24rem;
+    margin-bottom: 10rem;
+  }
+  /* mallakhamb */
+  .head_content_s_m {
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    text-align: center;
+  }
+  .left_image_d_s_m {
+    display: flex;
+    justify-content: left;
+  }
+  .left_image_s_m {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: 45vw;
+    margin-left: 6rem;
+    margin-top: 2rem;
+  }
+  .content_f_info_left_s_m {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 7vw;
+    margin-left: 53rem;
+    margin-top: -25rem;
+    margin-bottom: 10rem;
+  }
+
+  .toppers_head_main{
+    font-size: 45px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .toppers_sub_head{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 3rem;
+    font-weight: 800;
+  }
+
+  table{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  th {
+    width: 30vw;
+    height: 1.5em;
+    /* background: #d2d2d2; */
+    /* text-align: center; */
+    /* vertical-align: middle; */
+  }
+  tr{
+    text-align: center;
+    height: 1rem;
+  }
+
+  td{
+    padding-top: 1.5rem ;
+    width: 30vw;
+  }
+
+  
+
+
+footer {
+font-family: 'Roboto Slab', serif;
+text-align: center;
+font-weight: 500;
+padding: 10px;
+}

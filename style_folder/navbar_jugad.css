@@ -1,0 +1,44 @@
+/* three line logo colapse css */
+/* .logo_threelines:hover {
+    cursor: pointer;
+} */
+
+/* navbar hover */
+
+/* @media(max-width:490px){
+    .logo_threelines:hover .logo_threelines:active .nav_li{
+        cursor: pointer;
+        visibility: visible;
+        display: block;
+    }
+} */
+
+/* #threeline_mobi:hover{
+    display: block;
+    visibility: visible;
+    margin-top: 100rem;
+} */
+/* 
+.header_class_mobi {
+    visibility: hidden;
+    display: none;
+}
+
+#threelines_mobi {
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#threelines_mobi:hover {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width:490px) {
+    .threelines_mobi {
+        visibility: visible;
+        display: block;
+    }
+} */

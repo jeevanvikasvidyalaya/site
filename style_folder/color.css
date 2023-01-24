@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+    color: rgb(32, 26, 60);
+}
+
+
+
+  .horizontal_line_3 {
+    border-bottom: solid;
+    margin-top: -50rem;
+  }
+
+  .horizontal_line_4 {
+    border-bottom:  solid;
+    margin-top: 3rem;
+  }
+  .img_vv_d {
+    display: flex;
+    justify-content: left;
+    margin-top: -24rem;
+    margin-bottom: 12rem;
+  }
