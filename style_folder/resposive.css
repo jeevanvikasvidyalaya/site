@@ -687,18 +687,18 @@
 
 @media (max-width:374px) {
    .name_jvv_tabmode {
-      font-size: 60px;
+      font-size: 55px;
       font-family: 'Roboto SLab', serif;
       margin-top: 1rem;
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
+      margin-left: 0.3rem;
+      margin-right: 0.3rem;
       border-bottom: 0px solid;
       padding-bottom: 1rem;
       display: flex;
       text-align: center;
       justify-content: center;
       visibility: visible;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
    }
 }
 
@@ -707,15 +707,15 @@
       font-size: 56px;
       font-family: 'Roboto SLab', serif;
       margin-top: 1rem;
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
+      margin-left: 0.3rem;
+      margin-right: 0.3rem;
       border-bottom: 0px solid;
       padding-bottom: 1rem;
       display: flex;
       text-align: center;
       justify-content: center;
       visibility: visible;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
    }
 
    .img_jvv_tabmode {
@@ -736,15 +736,15 @@
       font-size: 50px;
       font-family: 'Roboto SLab', serif;
       margin-top: 1rem;
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
+      margin-left: 0.3rem;
+      margin-right: 0.3rem;
       border-bottom: 0px solid;
       padding-bottom: 1rem;
       display: flex;
       text-align: center;
       justify-content: center;
       visibility: visible;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
    }
 
    .add_jvv_tabmode {
@@ -764,15 +764,15 @@
       font-size: 45px;
       font-family: 'Roboto SLab', serif;
       margin-top: 1rem;
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
+      margin-left: 0.3rem;
+      margin-right: 0.3rem;
       border-bottom: 0px solid;
       padding-bottom: 1rem;
       display: flex;
       text-align: center;
       justify-content: center;
       visibility: visible;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
    }
 
    .img_jvv_tabmode {
@@ -2806,4 +2806,24 @@
       margin-left: 0rem;
       margin-top: 2rem;
     }
+}
+
+
+/*overflow at 380px  */
+@media(max-width:380px){
+   body{
+      overflow-x: hidden;
+      /* overflow-y: hidden; */
+   }
+}
+@media(max-width:300px){
+   body{
+      overflow-x: hidden;
+      overflow-wrap: hidden;
+      /* overflow-y: hidden; */
+   }
+   th{
+      visibility: hidden;
+      display: none;
+   }
 }
