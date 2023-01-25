@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,6 +13,7 @@ body {
 /* horizontal line css*/
 .horizontal_line {
     border-bottom: 1px solid;
+    margin-top: 3px;
 }
 
 .horizontal_line_2 {
@@ -33,6 +35,7 @@ body {
     border-bottom: 1px solid;
     /* margin-top: 3rem; */
 }
+
 .horizontal_line_6 {
     border-bottom: 1px solid;
     margin-top: 3rem;
@@ -71,14 +74,14 @@ a {
     display: flex;
     margin-bottom: 0.5rem;
     visibility: hidden;
-  }
+}
 
 .logo {
     height: auto;
     width: 60px;
-    border: 1px solid;
+    border: 0px solid;
     border-radius: 17px;
-    margin-top: -4.1rem;
+    margin-top: -3.1rem;
     margin-left: 1rem;
     display: flex;
 }
@@ -795,12 +798,14 @@ a {
     font-family: 'Roboto Slab', serif;
     font-size: 45px;
     text-align: center;
-  }
-  .left_image_d_s_k {
+}
+
+.left_image_d_s_k {
     display: flex;
     justify-content: left;
-  }
-  .left_image_s_k  {
+}
+
+.left_image_s_k {
     border: 1px solid;
     border-radius: 10px;
     padding: 10px;
@@ -808,8 +813,9 @@ a {
     width: 45vw;
     margin-left: 6rem;
     margin-top: 2rem;
-  }
-  .content_f_info_left_s_k  {
+}
+
+.content_f_info_left_s_k {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     text-align: right;
@@ -817,18 +823,21 @@ a {
     margin-left: 53rem;
     margin-top: -20rem;
     margin-bottom: 4rem;
-  }
-  /* judo */
-  .head_content_s_j {
+}
+
+/* judo */
+.head_content_s_j {
     font-family: 'Roboto Slab', serif;
     font-size: 45px;
     text-align: center;
-  }
-  .right_image_d_s_j {
+}
+
+.right_image_d_s_j {
     display: flex;
     justify-content: right;
-  }
-  .right_image_s_j {
+}
+
+.right_image_s_j {
     border: 1px solid;
     border-radius: 10px;
     padding: 10px;
@@ -836,8 +845,9 @@ a {
     width: 45vw;
     margin-right: 4rem;
     margin-top: 2rem;
-  }
-  .content_f_info_right_s_j {
+}
+
+.content_f_info_right_s_j {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     text-align: right;
@@ -845,18 +855,21 @@ a {
     margin-left: 7rem;
     margin-top: -24rem;
     margin-bottom: 10rem;
-  }
-  /* mallakhamb */
-  .head_content_s_m {
+}
+
+/* mallakhamb */
+.head_content_s_m {
     font-family: 'Roboto Slab', serif;
     font-size: 45px;
     text-align: center;
-  }
-  .left_image_d_s_m {
+}
+
+.left_image_d_s_m {
     display: flex;
     justify-content: left;
-  }
-  .left_image_s_m {
+}
+
+.left_image_s_m {
     border: 1px solid;
     border-radius: 10px;
     padding: 10px;
@@ -864,8 +877,9 @@ a {
     width: 45vw;
     margin-left: 6rem;
     margin-top: 2rem;
-  }
-  .content_f_info_left_s_m {
+}
+
+.content_f_info_left_s_m {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     text-align: right;
@@ -873,54 +887,77 @@ a {
     margin-left: 53rem;
     margin-top: -25rem;
     margin-bottom: 10rem;
-  }
+}
 
-  .toppers_head_main{
+.toppers_head_main {
     font-size: 45px;
     font-family: 'Roboto Slab', serif;
     text-align: center;
     margin-top: 2rem;
-  }
+}
 
-  .toppers_sub_head{
+.toppers_sub_head {
     font-family: 'Roboto Slab', serif;
     text-align: center;
     font-size: 40px;
     margin-top: 3rem;
     font-weight: 800;
-  }
+}
 
-  table{
+table {
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-  }
+}
 
-  th {
+th {
     width: 30vw;
     height: 1.5em;
     /* background: #d2d2d2; */
     /* text-align: center; */
     /* vertical-align: middle; */
-  }
-  tr{
+}
+
+tr {
     text-align: center;
     height: 1rem;
-  }
+}
 
-  td{
-    padding-top: 1.5rem ;
+td {
+    padding-top: 1.5rem;
     width: 30vw;
-  }
+}
 
-  
+/* css for mobile navigation */
+.header_class_mobi {
+    display: none;
+    visibility: hidden;
+}
+
+.nav_li_mobi {
+    list-style: none;
+    visibility: hidden;
+    font-size: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    display: none;
+}
+
+.logo_d {
+    display: flex;
+    justify-content: start;
+    margin-top: -20px;
+    margin-left: 0;
+    padding-bottom: 6px;
+}
+
 
 
 footer {
-font-family: 'Roboto Slab', serif;
-text-align: center;
-font-weight: 500;
-padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
 }
