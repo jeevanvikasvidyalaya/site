@@ -1,0 +1,60 @@
+/* .photos_school{
+    height: auto;
+    width: 30vw;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.photos{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+ */
+
+ img{
+    max-width: 100%;
+    height: auto;
+    /* vertical-align: middle; */
+    /* display: inline-block; */
+    width: 100vw;
+    
+ }
+
+ .image_d{
+    display: flex;
+    justify-content: center;
+ }
+
+ /* .grid_wrapper > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .grid_wrapper > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+ }
+
+ .grid_wrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+ }
+
+ .grid_wrapper .wide{
+    grid-column: span 2;
+ }
+.grid_wrapper .tall{
+    grid-row: span 2;
+}
+.grid_wrapper .big{
+    grid-column: span 2;
+    grid-row: span 2;
+} */

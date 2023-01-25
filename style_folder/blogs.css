@@ -1,0 +1,260 @@
+.scroll_bar_title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    margin-left: 74vw;
+    margin-top: 2rem;
+    display: flex;
+    margin-bottom: -81px;
+    position: fixed;
+}
+
+.list_scrollbar {
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    border-left: solid 1px;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-left: solid 1px;
+    border-top: solid 1px;
+    border-color: #a9ad96;
+    border-radius: 10px;
+    padding-left: 150px;
+    padding-right: 10px;
+}
+
+.scrollbar {
+    height: 33rem;
+    width: 27rem;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    margin-left: 66vw;
+    margin-top: 104px;
+    position: fixed;
+}
+
+.list_scrollbar_images {
+    height: 6.5rem;
+    width: auto;
+    margin-left: -11px;
+    margin-top: -116px;
+}
+
+.scroll_images {
+    display: flex;
+    height: 17px;
+    width: auto;
+    display: flex;
+    height: 0px;
+    width: auto;
+    margin-left: -120px;
+    margin-top: 21px;
+}
+
+.list_all_blogs {
+    font-size: 55px;
+    font-family: 'Roboto SLab';
+    margin-top: 2rem;
+    margin-left: 10vw;
+    /* padding-bottom: 1rem; */
+    margin-right: 42vw;
+    text-align: center;
+
+}
+
+.b_head {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    margin-left: 7vw;
+    padding: 0vw;
+    margin-right: 38vw;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.b_head_2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    margin-left: 7vw;
+    padding: 0vw;
+    margin-right: 38vw;
+    text-align: center;
+}
+
+.blog_image {
+    width: 55vw;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.blog_image_d {
+    margin-left: 5vw;
+    margin-top: 1rem;
+}
+
+.blog_info {
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    margin-left: 5vw;
+    margin-right: 37vw;
+    margin-top: 1rem;
+}
+
+.show_more {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-decoration: underline solid;
+    color: rgb(37, 37, 37);
+    /* margin-left: 30vw; */
+
+}
+
+/* responsiveness of blog page */
+@media (max-width:1306px) {
+
+    .list_all_blogs {
+        font-size: 55px;
+        font-family: 'Roboto SLab';
+        margin-top: 2rem;
+        margin-left: 5vw;
+        margin-right: 35vw;
+        text-align: center;
+
+    }
+}
+
+@media (max-width:1200px) {
+
+    .scrollbar {
+        height: 33rem;
+        width: 27rem;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-y: hidden;
+        overflow-y: scroll;
+        margin-left: 66vw;
+        margin-top: 104px;
+        position: fixed;
+        display: none;
+        visibility: hidden;
+    }
+
+    .scroll_bar_title {
+        font-family: 'Roboto Slab', serif;
+        font-size: 35px;
+        margin-left: 74vw;
+        margin-top: 2rem;
+        display: flex;
+        margin-bottom: -81px;
+        position: fixed;
+        display: none;
+        visibility: hidden;
+    }
+
+    .list_all_blogs {
+        font-size: 60px;
+        font-family: 'Roboto SLab';
+        margin-top: 2rem;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        text-align: center;
+    }
+    .b_head {
+        font-family: 'Roboto Slab', serif;
+        font-size: 40px;
+        margin-left: 0vw;
+        padding: 0vw;
+        margin-right: 0vw;
+        margin-top: 2rem;
+        text-align: center;
+      }
+      .b_head_2 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 30px;
+        margin-left: 0vw;
+        padding: 0vw;
+        margin-right: 0vw;
+        text-align: center;
+      }
+      .blog_image_d {
+        display: flex;
+        justify-content: center;
+        margin-left: 0vw;
+        margin-top: 1rem;
+      }
+      .blog_image {
+        width: 85vw;
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 10px;
+       
+      }
+      .blog_info {
+        font-family: 'Roboto Slab';
+        font-size: 20px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+      }
+}
+
+.horizontal_line_b_page{
+    border-bottom: 1px solid;
+    margin-top: 10px;
+}
+
+.horizontal_line {
+    border-bottom: 1px solid;
+    margin-top: 3px;
+  }
+
+  @media (max-width:500px) {
+    .horizontal_line {
+        border-bottom: 1px solid;
+        margin-top: 1.7rem;
+        visibility: visible;
+        display: block;
+      } 
+      .logo_d {
+        display: flex;
+        justify-content: start;
+        margin-top: -70px;
+        margin-left: 0.5rem;
+      }
+      .list_all_blogs {
+        font-size: 50px;
+        font-family: 'Roboto SLab';
+        margin-top: 2rem;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        text-align: center;
+      }
+      .b_head {
+        font-family: 'Roboto Slab', serif;
+        font-size: 35px;
+        text-align: center;
+      }
+      .b_head_2 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 25px;
+        margin-left: 0vw;
+        padding: 0vw;
+        margin-right: 0vw;
+        text-align: center;
+      }
+      .blog_info {
+        font-family: 'Roboto Slab';
+        font-size: 17px;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+      }
+  }
